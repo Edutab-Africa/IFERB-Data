@@ -1,4 +1,7 @@
-setwd("C:\Users\Edutab User\Documents\IFERB-Data")
+library("rstudioapi")
+setwd(dirname(getActiveDocumentContext()$path))
+
+#setwd("C:\Users\Edutab User\Documents\IFERB-Data")
 
 library(ggplot2)
 library(forcats)
